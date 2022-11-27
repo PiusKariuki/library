@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        smoke: "#f9f9fa",
-        coal: "#17171b",
-        lime: "#5ba745",
-        fade: "#f6f3f3",
+        primary: "#17171b",
+        secondary: "#f9f9fa",
+        info: "#5ba745",
+        tertiary: "#f6f3f3"
       },
     },
   },

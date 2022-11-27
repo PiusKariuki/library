@@ -14,7 +14,7 @@ const emit = defineEmits(['open'])
       <a href="#" class="nav-item">Library</a>
       <a href="#" class="nav-item">My Books</a>
       <a href="#" class="nav-item">support</a>
-      <font-awesome-icon icon="fa-solid fa-user" />
+      <font-awesome-icon icon="fa-solid fa-user" class="nav-item" />
     </div>
   </nav>
 </template>
