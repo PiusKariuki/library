@@ -6,7 +6,7 @@
         Get access to a wide range of books. We have a thoughtfully curated catalogue of books to fit different tastes.
         Whether it's you favorite author or a genre you're fond of Readily has you covered.
       </p>
-      <button class="primary-btn max-w-xs self-center lg:self-start">Get started today</button>
+      <button class="primary-btn max-w-xs self-center lg:self-start py-2">Get started today</button>
     </div>
     <img src="/img/stacked-books.svg" class="hidden lg:block lg:max-w-lg" />
   </div>

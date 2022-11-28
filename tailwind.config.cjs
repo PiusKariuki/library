@@ -4,13 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // primary: "#17171b",
         primary: "#000000B3",
-        // secondary: "#f9f9fa",
         secondary: "#0000008A",
-        // info: "#5ba745",
         info: "linear-gradient(147deg, #fe8a39 0%, #fd3838 74%)",
-        tertiary: "#f9f9fa",
+        startLinear: "#fe8a39",
+        stopLinear: "#fd3838",
         smoke: "#f9f9fa"
       },
     },
