@@ -2,15 +2,14 @@ import { createApp, provide, h } from 'vue'
 import './style.css'
 import App from './App.vue'
 import router from './shared/routes/routes'
-import  apolloClient  from './shared/graphql/client'
+import apolloClient from './shared/graphql/client'
 import { DefaultApolloClient } from '@vue/apollo-composable'
-
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faUser, faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faBars, faTimes, faChevronCircleLeft, faChevronCircleRight } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faUser, faBars, faTimes)
+library.add(faUser, faBars, faTimes, faChevronCircleLeft, faChevronCircleRight)
 
 const app = createApp({
   setup() {
@@ -18,6 +17,5 @@ const app = createApp({
   },
   render: () => h(App),
 })
-
 
 app.component('font-awesome-icon', FontAwesomeIcon).use(router).mount('#app')
